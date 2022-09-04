@@ -10,7 +10,6 @@ async function startApolloServer(typeDefs, resolvers) {
     dataSources: () => {
       return {
         trackAPI: new TrackAPI(),
-
       };
     },
   });

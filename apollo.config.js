@@ -1,5 +1,9 @@
+
 module.exports = {
   client: {
-    service: 'Local-Router@current',
-  },
+    service: {
+      name: "Local-Router@current",
+      url: "http://localhost:4000/graphql"
+    }
+  }
 };
